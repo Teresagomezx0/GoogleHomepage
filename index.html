@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Google</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <a
+            class="gmail"
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+            target="_blank"
+            >Gmail</a
+          >
+
+          <a
+            class="images"
+            href="https://www.google.com/imghp?hl=en&tab=ri&ogbl"
+            target="_blank"
+            >Images</a
+          >
+
+          <a
+            href="https://labs.google.com/search?source=ntp"
+            target="_blank"
+            class="labs"
+          >
+            <img
+            src="https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/tube.png?v=1750373011112"
+            alt"google labs image" width="18px"height:"30px"class="labs" />
+          </a>
+
+          <img
+            src="https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/profile.png?v=1750377422667"
+            alt="profile picture"
+            width="25px"
+            height="25px"
+            class="profile"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="logo">
+        <img
+          src="https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/google.svg?v=1750556917919"
+          alt="google logo"
+        />
+      </div>
+
+      <form onsubmit="handleaSearch(event)">
+        <div class="searchbar">
+          <input
+            type="text"
+            id="search"
+            name="searchQuery"
+            placeholder="Search and Hit Enter"
+          />
+        </div>
+      </form>
+
+      <section class="searchbarbuttons">
+        <button onclick="googleSearchClicked()">Google Search</button>
+        <button onclick="FeelingluckySearchClicked()">I'm Feeling Lucky</button>
+      </section>
+
+      <script>
+        function handleaSearch(event) {
+          event.preventDefault();
+          const userInput = document.getElementById("search").value;
+          alert("User searched for:" + userInput);
+        }
+
+        function googleSearchClicked() {
+          alert("Hello! I am an alert box! - Google search button clicked");
+        }
+
+        function FeelingluckySearchClicked() {
+          alert("Hello! I am an alert box! - I'm Feeling Lucky button clicked");
+        }
+      </script>
+    </main>
+
+    <footer class="footer"></footer>
+    <div class="black-box">Cecilia Ruiz: Paloma Mensajera</div>
+    <img
+      class="editpen"
+      src="https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/pen.png?v=1750561098291"
+      alt="edit pencil"
+      width="25px"
+      height="25px"
+    />
+  </body>
+</html>

@@ -1,0 +1,113 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation {
+  font-family: Arial, sans-serif;
+  text-align: right;
+}
+
+.gmail {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+}
+
+.gmail:hover {
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.images {
+  text-decoration: none;
+  color: white;
+}
+
+.images:hover {
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.labs {
+  position: static;
+  padding-right: 15px;
+  padding-left: 15px;
+  top: 0px;
+  text-decoration: none;
+}
+
+.labs:hover {
+  text-decoration: none;
+}
+
+.profile {
+  padding-right: 15px;
+  padding-top: 17px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/CeciliaRuiz_Chrome04_1000.jpg?v=1750371705537");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  position: static;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 170px;
+  margin: 0px;
+}
+
+.searchbar {
+  position: static;
+  text-align: center;
+}
+
+.searchbar input {
+  position: static;
+  top: 20px;
+  width: 700px;
+  height: 43px;
+  border-radius: 50px;
+  border: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.searchbarbuttons {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  border: none;
+}
+
+.black-box {
+  position: fixed;
+  bottom: 33px;
+  left: 10px;
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
+.editpen {
+  position: fixed;
+  bottom: 33px;
+  right: 15px;
+  width: 33px;
+  height: 33px;
+}
