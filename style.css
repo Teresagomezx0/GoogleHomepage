@@ -33,9 +33,9 @@
 
 .labs {
   position: static;
-  padding-right: 15px;
-  padding-left: 15px;
-  top: 0px;
+  align-items: right;
+  width:18px;
+  height: 20px;px;
   text-decoration: none;
 }
 
@@ -46,11 +46,14 @@
 .profile {
   padding-right: 15px;
   padding-top: 17px;
+  align-items: right;
+  width:25px;
+  height:25px;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url("https://cdn.glitch.global/9044e5fe-4c86-4d7b-896e-b99ac2c6362d/CeciliaRuiz_Chrome04_1000.jpg?v=1750371705537");
+  background-image: url("images/CeciliaRuiz_Chrome04_1000.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
